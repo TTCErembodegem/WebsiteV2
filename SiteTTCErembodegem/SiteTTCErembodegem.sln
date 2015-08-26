@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ttc.DataAccess", "src\Ttc.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrenoySyncer", "src\FrenoySyncer\FrenoySyncer.csproj", "{D3FDABD3-8D5F-4A24-8AE9-7BAAED1D62C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ttc.Model", "Ttc.Model\Ttc.Model.csproj", "{90CC4E3D-11B8-4381-98F4-234585F8658D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ttc.Model", "src\Ttc.Model\Ttc.Model.csproj", "{90CC4E3D-11B8-4381-98F4-234585F8658D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
