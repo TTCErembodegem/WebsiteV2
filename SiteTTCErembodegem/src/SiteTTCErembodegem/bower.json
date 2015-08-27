@@ -1,5 +1,5 @@
 {
-  "name": "SiteTTCErembodegem",
+  "name": "Ttc.Site",
   "private": true,
   "dependencies": {
     "bootstrap": "*",

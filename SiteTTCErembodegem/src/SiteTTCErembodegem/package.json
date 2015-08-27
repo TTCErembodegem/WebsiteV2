@@ -1,6 +1,6 @@
 {
-    "version": "1.0.0",
-    "name": "SiteTTCErembodegem",
+    "version": "0.0.1",
+    "name": "Ttc.Site",
     "private": true,
     "devDependencies": {
         "grunt": "0.4.5",
