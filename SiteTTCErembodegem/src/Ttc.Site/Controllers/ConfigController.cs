@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace SiteTTCErembodegem.Controllers
+namespace Ttc.Site.Controllers
 {
     public class ConfigController : ApiController
     {

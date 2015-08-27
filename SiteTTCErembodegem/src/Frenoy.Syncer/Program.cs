@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ttc.DataAccess;
+//using Ttc.DataAccess;
 
-namespace FrenoySyncer
+namespace Frenoy.Syncer
 {
     class Program
     {

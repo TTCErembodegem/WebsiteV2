@@ -212,6 +212,6 @@ _Pvt_Extensions/
 ModelManifest.xml
 
 # VisualStudio 2015
-SiteTTCErembodegem/src/SiteTTCErembodegem/wwwroot/lib/
+SiteTTCErembodegem/src/Ttc.Site/wwwroot/lib/
 
 # TTC stuff

@@ -15,8 +15,5 @@
     <SchemaVersion>2.0</SchemaVersion>
     <DevelopmentServerPort>17815</DevelopmentServerPort>
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ttc.Dtos\Ttc.Dtos.csproj" />
-  </ItemGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
