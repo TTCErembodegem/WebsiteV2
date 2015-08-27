@@ -7,7 +7,9 @@
         "Microsoft.AspNet.Server.WebListener": "1.0.0-beta5",
         "Glimpse.Mvc5": "1.5.3",
         "Microsoft.AspNet.Mvc": "6.0.0-beta5",
-        "Microsoft.AspNet.Mvc.WebApiCompatShim": "6.0.0-beta5"
+        "Microsoft.AspNet.Mvc.WebApiCompatShim": "6.0.0-beta5",
+        "Ttc.Dtos": "1.0.0-*",
+        "System.Net.Http": "4.0.0-beta-23019"
     },
     "commands": {
         "web": "Microsoft.AspNet.Hosting --config hosting.ini"
