@@ -14,7 +14,6 @@ namespace Ttc.Model
         [Key]
         public int ID { get; set; }
 
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime Datum { get; set; }
 
         public DateTime Uur { get; set; }

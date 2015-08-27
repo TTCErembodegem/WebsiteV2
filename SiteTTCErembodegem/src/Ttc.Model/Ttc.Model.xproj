@@ -6,8 +6,8 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>2640c2dd-538d-4050-a34e-6cbad5670c0f</ProjectGuid>
-    <RootNamespace>Ttc.Dtos</RootNamespace>
+    <ProjectGuid>00e19f32-a6f4-4e97-a423-098bdd8d6708</ProjectGuid>
+    <RootNamespace>Ttc.Model</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>

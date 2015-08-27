@@ -1,6 +1,6 @@
 ﻿{
   "version": "1.0.0-*",
-  "description": "Ttc.Dtos Class Library",
+  "description": "Ttc.DataAccess Class Library",
   "authors": [ "Wouter" ],
   "tags": [ "" ],
   "projectUrl": "",
@@ -11,10 +11,19 @@
     "System.Linq": "4.0.0-beta-23019",
     "System.Threading": "4.0.10-beta-23019",
     "System.Runtime": "4.0.10-beta-23019",
-    "Microsoft.CSharp": "4.0.0-beta-23019"
+    "Microsoft.CSharp": "4.0.0-beta-23019",
+    "EntityFramework": "6.1.3",
+    "MySql.Data.Entity": "6.9.7",
+    "Ttc.Model": "1.0.0-*",
+    "Ttc.Dtos": "1.0.0-*",
+    "MySql.Data": "6.9.7"
   },
 
   "frameworks": {
-    "dotnet": { }
+    "dotnet": {
+      "dependencies": {
+        
+      }
+    }
   }
 }
