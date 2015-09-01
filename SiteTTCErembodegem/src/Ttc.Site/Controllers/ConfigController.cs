@@ -23,45 +23,7 @@ namespace Ttc.Site.Controllers
 
         public TtcConfiguration Get()
         {
-            //using (var db = new TtcDbContext())
-            //{
-
-            //}
             return _configService.GetConfiguration();
         }
     }
 }
-
-
-
-//namespace Ttc.DataAccess
-//{
-//    public class TtcDbContext : DbContext
-//    {
-//        public TtcDbContext() : base("ttc")
-//        {
-//            Database.SetInitializer<TtcDbContext>(new TtcDbInitializer());
-//        }
-
-//        //public DbSet<Speler> Spelers { get; set; }
-//        //public DbSet<Match> Matches { get; set; }
-
-//        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-//        {
-//            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-//        }
-//    }
-
-//    /// <summary>
-//    /// Initial Database seeding
-//    /// </summary>
-//    public class TtcDbInitializer : CreateDatabaseIfNotExists<TtcDbContext>
-//    {
-//        //protected override void Seed(TtcDbContext context)
-//        //{
-//        //    context.Spelers.Add(new Speler());
-//        //    base.Seed(context);
-//        //}
-//    }
-//}
-

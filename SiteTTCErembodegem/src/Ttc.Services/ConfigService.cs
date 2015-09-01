@@ -13,12 +13,13 @@ namespace Ttc.Services
         {
             using (var db = new Ttc.DataAccess.TtcDbContext())
             {
+                var plts = db.Spelers.ToArray();
 
+                return new TtcConfiguration
+                {
+                    StandardCompetitionStart = new TimeSpan(20, 30, 0)
+                };
             }
-            return new TtcConfiguration
-            {
-                StandardCompetitionStart = new TimeSpan(20, 30, 0)
-            };
         }
     }
 }
