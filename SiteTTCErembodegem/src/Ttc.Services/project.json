@@ -13,12 +13,12 @@
     "System.Runtime": "4.0.10-beta-23019",
     "Microsoft.CSharp": "4.0.0-beta-23019",
     "Ttc.Dtos": "1.0.0-*",
-    "Ttc.Model": "1.0.0-*"
+    "Ttc.Model": "1.0.0-*",
+    "Ttc.DataAccess": "1.0.0-*"
   },
 
   "frameworks": {
-
-    "dotnet": {
+    "dnx451": {
 
     }
   }

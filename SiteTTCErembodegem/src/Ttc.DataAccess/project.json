@@ -14,8 +14,7 @@
     "Microsoft.CSharp": "4.0.0-beta-23019",
     "Ttc.Dtos": "1.0.0-*",
     "Ttc.Model": "1.0.0-*",
-    "EntityFramework": "6.1.3",
-    "Microsoft.DataAnnotations": "1.0.0-beta1"
+    "EntityFramework": "6.1.3"
   },
 
   "frameworks": {

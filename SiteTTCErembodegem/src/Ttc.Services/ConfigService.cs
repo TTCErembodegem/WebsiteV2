@@ -11,10 +11,10 @@ namespace Ttc.Services
     {
         public TtcConfiguration GetConfiguration()
         {
-            //using (var db = new Ttc.DataAccess.TtcDbContext())
-            //{
+            using (var db = new Ttc.DataAccess.TtcDbContext())
+            {
 
-            //}
+            }
             return new TtcConfiguration
             {
                 StandardCompetitionStart = new TimeSpan(20, 30, 0)

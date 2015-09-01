@@ -16,6 +16,7 @@
   },
 
   "frameworks": {
+    "dnx451": {},
     "dotnet": {
       "dependencies": {
         "System.ComponentModel.Annotations": "4.0.10-beta-23109"

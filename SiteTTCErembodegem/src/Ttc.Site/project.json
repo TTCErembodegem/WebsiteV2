@@ -18,10 +18,7 @@
 
   "frameworks": {
     "dnx451": {
-      "dependencies": {
-      }
-    },
-    "dnxcore50": { }
+    }
   },
 
     "publishExclude": [
