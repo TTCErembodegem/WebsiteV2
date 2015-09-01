@@ -18,11 +18,6 @@ namespace Ttc.Site
 
         public void Configure(IApplicationBuilder app)
         {
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("Hello World!");
-            //});
-
             app.UseMvc(routes =>
             {
                 //routes.MapRoute(

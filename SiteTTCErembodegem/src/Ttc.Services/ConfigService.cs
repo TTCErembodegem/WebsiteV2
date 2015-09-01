@@ -11,7 +11,7 @@ namespace Ttc.Services
     {
         public TtcConfiguration GetConfiguration()
         {
-            //using (var db = new TtcDbContext())
+            //using (var db = new Ttc.DataAccess.TtcDbContext())
             //{
 
             //}

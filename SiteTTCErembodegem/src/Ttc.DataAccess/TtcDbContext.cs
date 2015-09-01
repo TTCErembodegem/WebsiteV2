@@ -1,5 +1,6 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using Ttc.Model;
 
 namespace Ttc.DataAccess
 {
@@ -10,8 +11,8 @@ namespace Ttc.DataAccess
             Database.SetInitializer<TtcDbContext>(new TtcDbInitializer());
         }
 
-        //public DbSet<Speler> Spelers { get; set; }
-        //public DbSet<Match> Matches { get; set; }
+        public DbSet<Ttc.Model.Speler> Spelers { get; set; }
+        public DbSet<Ttc.Model.Match> Matches { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
