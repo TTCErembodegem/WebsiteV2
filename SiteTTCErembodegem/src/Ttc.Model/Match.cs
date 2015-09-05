@@ -35,5 +35,7 @@ namespace Ttc.Model
         public string Beschrijving { get; set; }
 
         public int? Thuis { get; set; }
+
+        public string GeleideTraining { get; set; }
     }
 }
